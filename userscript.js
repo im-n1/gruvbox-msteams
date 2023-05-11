@@ -24,7 +24,7 @@
             line-height: 1.1 !important;
         }
 
-        *:not(.wa > *), .b {
+        *:not(.wi > *), .b {
             color: #ebdbb2;
         }
 
@@ -44,7 +44,7 @@
 
         /* gruvbox */
         body, app-bar, .app-header-bar, .ts-left-rail-wrapper, .ts-messages-header, .bw > div, .et,
-        .app-notification-banner {
+        .app-notification-banner, #message-pane-layout-a11y {
             background-color: #282828 !important;
         }
 
@@ -54,7 +54,7 @@
             background: none;
         }
 
-        .ts-header-search, [id^=new-message-] {
+        .ts-header-search, [id^=new-message-], .ui-chat {
             background-color: #1d2021 !important;
         }
 
@@ -71,7 +71,7 @@
         }
 
         /* highlights */
-        .left-rail-selected *, .ui-chat__message__author.wa, .ui-chat__message__author.wa + div * {
+        .left-rail-selected *, .ui-chat__message__author.wi, .ui-chat__message__author.vy * {
             color: #d79921;
         }
 
