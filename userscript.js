@@ -44,7 +44,7 @@
 
         /* gruvbox */
         body, app-bar, .app-header-bar, .ts-left-rail-wrapper, .ts-messages-header, .bw > div, .et,
-        .app-notification-banner, #message-pane-layout-a11y, .bbo {
+        .app-notification-banner, #message-pane-layout-a11y, .bbo, .ui-alert {
             background-color: #282828 !important;
         }
 
@@ -62,7 +62,7 @@
             box-shadow: none !important;
         }
 
-        .ui-box, .ts-btn-fluent.ts-btn-fluent-split::after {
+        .ui-box, .ts-btn-fluent.ts-btn-fluent-split::after, .ui-alert {
             border: none !important;
         }
 
